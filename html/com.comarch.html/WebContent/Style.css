@@ -1,39 +1,32 @@
 @CHARSET "UTF-8";
 
-
-#_Customer{
-	outline-style: double;
+th{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: serif;
+	font-size: 20px;
+	
 }
 
-#_Pizza{
-	outline-style: double;
+td{
+	border-bottom: 3px solid black;
+	font-family: serif;
+	font-size: 16px
 }
 
-#_date{
-	outline-style: double;
+table{
+	border-collapse: collapse;
 }
 
-#_data{
-	outline-style: double;
-}
-
-#_but{
-	color: red
-}
-
-
-#_pizzas{
-	border-collapse: separate;
-	border-bottom: 2px solid black;
-}
-
-tr{
-	border-collapse: separate;
-	border-bottom: 2px solid black;
+#_Order{
+	width: 700px;
+	margin: auto;
 }
 
 #_table{
 	width: 700px;
 	margin: auto;
+	text-align: center;
+	text-decoration: none;
 		
 }
