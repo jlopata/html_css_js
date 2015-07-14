@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<title>Hello World, AngularJS - ViralPatel.net</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+	<div class="row">
+		<div class="small-3 columns">
+			<label>Input Label <input type="text" ng-model="first"/>
+			</label>
+			<a href="#" class="button {{first}}">Button</a>
+		</div>
+		<div class="small-3 columns">
+			<label>Input Label <input type="text" ng-model="second"/>
+			</label>
+			<a href="#" class="button {{second}}">Button</a>
+		</div>
+		<div class="small-3 columns">
+			<label>Input Label <input type="text" ng-model="third"/>
+			</label>
+			<a href="#" class="button {{third}}">Button</a>
+		</div>
+		<div class="small-3 columns">
+			<label>Input Label <input type="text" ng-model="fourth"/>
+			</label>
+			<a href="#" class="button {{fourth}}">Button</a>
+		</div>
+	</div>
+
+
+
+		<script type="text/javascript"
+			src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+</body>
+</html>

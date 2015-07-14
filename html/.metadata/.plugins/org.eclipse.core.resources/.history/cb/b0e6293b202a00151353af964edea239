@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<title>Hello World, AngularJS - ViralPatel.net</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+	
+	<input type="text" ng-model="sometext" />
+	<div>Hello {{ sometext }}
+	<a href="#" class="button">Button</a>
+	</div>
+	
+	
+	
+	
+	
+	
+
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+		
+		<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+		
+		
+</body>
+</html>

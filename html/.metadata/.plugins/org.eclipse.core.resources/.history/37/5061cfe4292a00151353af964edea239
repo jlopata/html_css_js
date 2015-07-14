@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="PizzaOrderApp">
+<head>
+<title>Hello World, AngularJS - ViralPatel.net</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body ng-controller="OrdersCtrl">
+
+	<table>
+		<thead>
+			<tr>
+				<th>Pizza name</th>
+				<th>Pizza type</th>
+				<th>Status</th>
+				<th>Estimated delivery time</th>
+				<th>Delivered</th>
+				<th>Customer</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="order in orders">
+				<td>{{order.PizzaName}}</td>
+				<td>{{order.PizzaType}}</td>
+				<td>{{order.Status}}</td>
+				<td>{{order.EstimatedDeliveryTime}}</td>
+				<td>{{order.Delivered}}</td>
+				<td>{{order.Customer}}</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+	<script type="text/javascript">
+		var PizzaOrderApp = angular.module('PizzaOrderApp', []);
+
+		PizzaOrderApp.controller('OrdersCtrl', function($scope) {
+			$scope.orders = [ {
+				'PizzaName' : 'Funghi',
+				'PizzaType' : 'BIG',
+				'Status' : 'CREATED',
+				'EstimatedDeliveryTime' : new Date.now(),
+				'Delivered' : 'true',
+				'Customer' : 'Customer'
+			}, {
+				'PizzaName' : 'Funghi',
+				'PizzaType' : 'BIG',
+				'Status' : 'CREATED',
+				'EstimatedDeliveryTime' : new Date.now(),
+				'Delivered' : 'true',
+				'Customer' : 'Customer'
+			}, {
+				'PizzaName' : 'Funghi',
+				'PizzaType' : 'BIG',
+				'Status' : 'CREATED',
+				'EstimatedDeliveryTime' : new Date.now(),
+				'Delivered' : 'true',
+				'Customer' : 'Customer'
+			}, {
+				'PizzaName' : 'Funghi',
+				'PizzaType' : 'BIG',
+				'Status' : 'CREATED',
+				'EstimatedDeliveryTime' : new Date.now(),
+				'Delivered' : 'true',
+				'Customer' : 'Customer'
+			} ]
+		});
+	</script>
+
+
+</body>
+</html>

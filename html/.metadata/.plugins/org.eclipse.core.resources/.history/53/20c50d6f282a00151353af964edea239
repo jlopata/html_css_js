@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="PizzaOrder">
+<head>
+<title>Hello World, AngularJS - ViralPatel.net</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body ng-controller="Orders">
+
+	<table>
+		<thead>
+			<tr>
+				<th>Pizza name</th>
+				<th>Pizza type</th>
+				<th>Status</th>
+				<th>Estimated delivery time</th>
+				<th>Delivered</th>
+				<th>Customer</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Margharita</td>
+				<td>Big</td>
+				<td>Created</td>
+				<td>12.12.2015 12:12</td>
+				<td>false</td>
+				<td>John Smith<br />444-444-444 <br />Lodz, Piotrkowska 19/23
+				</td>
+			</tr>
+			<tr>
+				<td>Funghi</td>
+				<td>Big</td>
+				<td>Created</td>
+				<td>12.12.2015 12:12</td>
+				<td>false</td>
+				<td>John Smith<br />444-444-444 <br />Lodz, Piotrkowska 19/23
+				</td>
+			</tr>
+			<tr>
+				<td>Capriciosa</td>
+				<td>Big</td>
+				<td>Created</td>
+				<td>12.12.2015 12:12</td>
+				<td>false</td>
+				<td>John Smith<br />444-444-444 <br />Lodz, Piotrkowska 19/23
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+		<script type="text/javascript"
+			src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+</body>
+</html>
